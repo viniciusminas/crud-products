@@ -30,16 +30,19 @@ Este projeto é uma API RESTful desenvolvida em Java com Spring Boot que realiza
 
 ### Pré-requisitos
 
-- Java 17+
-- Maven
-- PostgreSQL em execução
+Antes de começar, você precisa ter instalado em sua máquina:
 
-### Passos
+- [Java 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Maven](https://maven.apache.org/download.cgi)
+- [PostgreSQL](https://www.postgresql.org/download/) em execução  
+  > Certifique-se de que o banco está ativo e acessível nas configurações definidas no `application.properties`.
 
-```bash
-# Clone o repositório
-git clone https://github.com/viniciusminas/crud-products.git
-cd crud-products
+---
 
-# Compile e execute a aplicação
-./mvnw spring-boot:run
+### 🧭 Passo a passo
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/viniciusminas/crud-products.git
+   cd crud-products
