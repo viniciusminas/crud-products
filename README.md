@@ -1,6 +1,6 @@
 # CRUD Products - API em Java com Spring Boot
 
-Este projeto é uma API RESTful desenvolvida em Java com Spring Boot que realiza operações básicas de CRUD (Criar, Listar, Atualizar e Deletar) de produtos. Ele será consumido futuramente por um front-end desenvolvido com React e TypeScript.
+Este projeto é uma API RESTful desenvolvida em Java com Spring Boot que realiza operações básicas de CRUD (Criar, Listar, Atualizar e Deletar) de produtos. A API foi pensada para ser consumida por um front-end desenvolvido com HTML, JavaScript e, futuramente, com React e TypeScript.
 
 ## Funcionalidades
 
@@ -14,24 +14,25 @@ Este projeto é uma API RESTful desenvolvida em Java com Spring Boot que realiza
 - Java 17
 - Spring Boot
 - Spring Data JPA
-- PostgreSQL (banco de dados relacional)
-- Maven como gerenciador de dependências
+- PostgreSQL
+- Maven
 
-## 🔗 Endpoints da API
+## Endpoints da API
 
-| Método | Endpoint         | Descrição               |
-|--------|------------------|-------------------------|
-| POST   | /produtos        | Cadastrar um produto    |
-| GET    | /produtos        | Listar todos os produtos|
-| PUT    | /produtos/{id}   | Atualizar um produto    |
-| DELETE | /produtos/{id}   | Deletar um produto      |
+| Método | Endpoint         | Descrição                |
+|--------|------------------|--------------------------|
+| POST   | `/produtos`      | Cadastrar um produto     |
+| GET    | `/produtos`      | Listar todos os produtos |
+| PUT    | `/produtos/{id}` | Atualizar um produto     |
+| DELETE | `/produtos/{id}` | Deletar um produto       |
 
-## Executar o projeto localmente
+## Como executar o projeto localmente
 
 ### Pré-requisitos
 
 - Java 17+
 - Maven
+- PostgreSQL em execução
 
 ### Passos
 
@@ -40,7 +41,5 @@ Este projeto é uma API RESTful desenvolvida em Java com Spring Boot que realiza
 git clone https://github.com/viniciusminas/crud-products.git
 cd crud-products
 
-# Compile e rode a aplicação
+# Compile e execute a aplicação
 ./mvnw spring-boot:run
-
-
