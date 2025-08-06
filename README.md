@@ -39,10 +39,49 @@ Antes de começar, você precisa ter instalado em sua máquina:
 
 ---
 
-### 🧭 Passo a passo
+### Passo a passo
 
 1. **Clone o repositório:**
 
    ```bash
    git clone https://github.com/viniciusminas/crud-products.git
    cd crud-products
+
+### Configure o banco de dados
+
+Edite o arquivo `src/main/resources/application.properties` com os dados corretos de acesso ao PostgreSQL:
+
+```properties-exemplo```
+spring.datasource.url=jdbc:postgresql://localhost:5432/seu_banco
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
+
+
+### Execute a aplicação
+
+Com o Maven Wrapper (sem precisar instalar Maven globalmente):
+
+Ou, se já tiver o Maven instalado:
+
+mvn spring-boot:run
+
+
+### Acesse a API
+
+Após a inicialização, a API estará disponível em:
+
+http://localhost:8080
+
+
+### Abrir o frontend
+
+Navegue até a pasta frontend e abra o arquivo index.html diretamente no navegador:
+
+crud-products/frontend/index.html
+
+### Dica: 
+
+Se estiver utilizando a IDE do VSCode, instale a extensão Live Server para facilitar o desenvolvimento frontend com recarregamento automático. 
+
+
+
