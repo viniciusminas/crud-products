@@ -11,11 +11,18 @@ Este projeto é uma API RESTful desenvolvida em Java com Spring Boot que realiza
 
 ## Tecnologias utilizadas
 
+## Backend
 - Java 17
 - Spring Boot
 - Spring Data JPA
 - PostgreSQL
 - Maven
+
+## Frontend
+
+- JavaScript
+- HTML
+- CSS
 
 ## Endpoints da API
 
